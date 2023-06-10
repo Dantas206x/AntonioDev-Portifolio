@@ -5,7 +5,7 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 
 const  Scenes = (props) => {
   const group = useRef();
-  const { nodes, materials, animations } = useGLTF("../../public/persona_pc/Scene.gltf");
+  const { nodes, materials, animations } = useGLTF("/public/persona_pc/Scene.gltf");
   const { actions , names } = useAnimations(animations, group);
   console.log(names);
 
