@@ -1,58 +1,51 @@
-import React from "react";
 import { motion } from "framer-motion";
+
 import { styles } from "../styles";
 import { SceneCanvas } from "./canvas";
-import {  fadeIn, textVariant } from '../utils/motion';
-
-
 
 const Hero = () => {
   return (
-
-   <section className="relative w-full h-screen mx-auto">
-      <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx auto flex flex row items-start gap-5`}>
-        <div className="flex flex-col justify-center items-center mt-5">
-          <div className="w-5 h-5 rounded-full bg-white"/>
-          <div className="w-1 sm:h-80 h-40 violet-gradient"/>
+    <section className={`relative w-full h-screen mx-auto`}>
+      <div
+        className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+      >
+        <div className='flex flex-col justify-center items-center mt-5'>
+          <div className='w-5 h-5 rounded-full bg-white' />
+          <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
-          <div>
-            <h1 className={`${styles.heroHeadText} text-white`}
-            >Olá, eu sou 
-            <span className="gradient-text sombra-texto"
-              
-            >
-            &nbsp;Antonio</span></h1>
-            <p className={`${styles.heroSubText} mt-2 text-white-100`}>Sou profissional de T.I e desenvolvo soluções tecnológicas e 
-            <br className="sm:block hidden "/>criativas para o mundo digital. ⚛️
-            
 
-            </p>
-          </div>  
-             
+        <div>
+          <h1 className={`${styles.heroHeadText} text-white`}>
+          Olá, eu sou<span className='text gradient-text sombra-texto flex'>&nbsp;Antonio</span>
+          </h1>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          ou profissional de T.I e desenvolvo soluções tecnológicas e  <br className='sm:block hidden' />
+          criativas para o mundo digital. ⚛️
+          </p>
+        </div>
       </div>
-      <SceneCanvas/>
-      <div className="absolute xs:bottm-10 bottom-32 w-full flex justify-center items-center">
-        <a href="#about">
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
-            <motion.dev 
-              animate={{
-                y:[0, 24, 0 ]
-              }}
-                transition={{
-                  duration: 1.5,
-                  repeat: Infinity,
-                  repeatType: 'loop'
-                }}
-                className="w-3 h-3 rounded-full bg-secondary mb-1"
-            />
 
+      <SceneCanvas />
+
+      <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+        <a href='#about'>
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className='w-3 h-3 rounded-full bg-secondary mb-1'
+            />
           </div>
-              
         </a>
       </div>
-      
-   </section> 
-  )
-}
+    </section>
+  );
+};
 
-export default Hero
+export default Hero;
