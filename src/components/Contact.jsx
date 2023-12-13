@@ -75,8 +75,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <p className={styles.sectionSubText}>Entre em Contato. 📧</p>
-        <h3 className={styles.sectionHeadText}>Contato.</h3>
+        <p className={styles.sectionSubText}>Entre em Contato 📧</p>
+        <h3 className={styles.sectionHeadText}>Contato</h3>
 
         <form
           ref={formRef}
@@ -92,8 +92,10 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Seu Nome?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              maxLength={140}
             />
           </label>
+
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Seu Email</span>
             <input
@@ -103,8 +105,10 @@ const Contact = () => {
               onChange={handleChange}
               placeholder="Seu email?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              maxLength={140}
             />
           </label>
+
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Sua Mensagem</span>
             <textarea
@@ -114,6 +118,7 @@ const Contact = () => {
               onChange={handleChange}
               placeholder='O que gostaria de dizer?'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              maxLength={140}
             />
           </label>
 

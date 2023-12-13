@@ -179,7 +179,7 @@ import {
       tags: [
         {
           name: "JavaScript",
-          color: "blue-text-gradient",
+          color: "yellow-text-gradient",
         },
       
       ],
