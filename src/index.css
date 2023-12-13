@@ -132,6 +132,38 @@ html {
   -webkit-text-fill-color: transparent;
   -webkit-text-size-adjust: 100%;
 }
+.yellow-text-gradient {
+  background: #eeff00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #eeff00,
+    #eeff00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #eeff00,
+    #eeff00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
+.purple-text-gradient {
+  background: #b700ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #b700ff,
+    #b700ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #b700ff,
+    #b700ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-size-adjust: 100%;
+}
 
 /* canvas- styles */
 .canvas-loader {

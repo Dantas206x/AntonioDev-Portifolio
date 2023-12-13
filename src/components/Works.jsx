@@ -72,7 +72,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Meu trabalho</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projetos.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Projetos</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,11 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Os projetos abaixo mostram minhas habilidades e experiência através de
-          exemplos reais do meu trabalho. Cada projeto é brevemente descrito com
-          links para repositórios de código e demonstrações ao vivo nele. Reflete o meu
-          capacidade de resolver problemas complexos, trabalhar com diferentes tecnologias,
-          e gerenciar projetos de forma eficaz.
+          Os seguintes projetos são representativos das minhas habilidades e experiências, evidenciando meu trabalho por meio de exemplos tangíveis. Cada projeto é descrito de maneira concisa, incluindo links para os repositórios de código correspondentes e demonstrações ao vivo. Estes não apenas ilustram minha capacidade de resolver desafios complexos, mas também destacam minha versatilidade ao trabalhar com diversas tecnologias e minha eficácia na gestão de projetos. Essas realizações refletem um conjunto diversificado de competências e meu comprometimento em oferecer soluções inovadoras e eficientes.
         </motion.p>
       </div>
 

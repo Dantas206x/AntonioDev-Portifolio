@@ -19,9 +19,18 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
-    tripguide,
     threejs,
+    front,
+    back,
+    react,
+    IMC,
+    dockeer,
+    locad,
+    json,
+    protifas,
+    spring,
+    variacao,
+
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +51,19 @@ import {
   const services = [
     {
       title: "Desenvolvedor Web",
-      icon: web,
+      icon: front,
     },
     {
-      title: "Desenvolvedor React Native",
-      icon: mobile,
+      title: "Desenvolvedor React",
+      icon: react,
     },
     {
       title: "Desenvolvedor Backend",
-      icon: backend,
+      icon: back,
     },
     {
-      title: "Criador de Conteudo",
-      icon: creator,
+      title: "Ferramenta de Design",
+      icon: figma,
     },
   ];
   
@@ -97,79 +106,204 @@ import {
   
   const experiences = [
     {
-      title: "Analista de Sustentação",
-      company_name: "NAVA - Technology for Business",
+      title: "Full-stack Developer",
+      company_name: "Capgemini",
       icon: starbucks,
       iconBg: "#000000",
-      date: "Dez 2022 - Fev 2023",
+      date: "May 2023 - Present",
       points: [
-        "Responsável por dar suporte às soluções implementadas em uma empresa, garantindo o seu funcionamento e resolvendo eventuais problemas.",
-        "Colaborar em conjunto a uma equipe interna, para ilustrar novas ideias e a viabilidade de projetos. ",
-        "Certificar de que o design está responsivo e testar compatibilidade entre navegadores.",
-        "Participar de Code Reviews e providenciar o feedback para os desenvolvedores.",
+        "Líder em soluções inovadoras desde maio de 2023, especializado em JavaScript, React, C# .NET, TypeScript, React Native, Angular e Python.",
+        "Especialista em garantir a integridade e eficiência de sistemas, com foco em PostgreSQL, MySQL e MongoDB. ",
+        "Habilidade avançada no uso de API's REST e Postman para testes, assegurando integrações eficientes.",
+        "Contribuição para a excelência técnica da equipe, enfrentando desafios e impulsionando o sucesso da Capgemini com aplicações robustas.",
       ],
     },
     {
-      title: "Analista de suporte jr",
-      company_name: "Algar Tech",
+      title: "Full-stack Developer",
+      company_name: "Zup Innovation",
       icon: tesla,
-      iconBg: "#E6DEDD",
+      iconBg: "#000000",
       date: "Ago 2022 - Dez 2022",
       points: [
-        "responsável por fornecer suporte técnico aos usuários de sistemas, hardware e software. ",
-        "identificar e resolver problemas, instalar softwares e atualizações, além de prestar atendimento aos usuários por telefone, chat ou e-mail.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Responsável pela manutenção preventiva de equipamentos e pela criação de documentação de suporte e procedimentos técnicos.",
+        "Desenvolvedor Full Stack na Zup Innovation, liderou projetos estratégicos para avanço tecnológico.",
+        "Utilizou JavaScript, React, C# .NET, TypeScript, React Native, Angular, e gerenciou eficientemente bancos de dados como PostgreSQL, MySQL e MongoDB.",
+        "Especialista em API's REST, garantiu integração suave e qualidade por meio de testes rigorosos com o Postman.",
+        "Além de habilidades técnicas, promoveu cultura inovadora e eficiente em equipes multidisciplinares, consolidando sua expertise como desenvolvedor Full Stack.",
       ],
     },
     {
-      title: "Agente de call center",
-      company_name: "Shopify",
+      title: "Full Stack jr",
+      company_name: "Ambev Tech",
       icon: shopify,
-      iconBg: "#383E56",
-      date: "Set 2017 - Jul 2018",
+      iconBg: "#000000",
+      date: "Jan 2019 - May 2020",
       points: [
-        "Serviço especializado no atendimento telefônico aos clientes de uma empresa.",
-        "As principais atividades realizadas são: atendimento ao cliente, solução de problemas, vendas e negociações, suporte técnico, monitoramento de serviços, gestão de reclamações, pesquisa de satisfação, realização de campanhas de marketing, entre outras.",
-        "Para isso, são utilizados sistemas de telefonia, computadores e principalmente, uma equipe de atendentes capacitados e treinados para oferecer um atendimento de qualidade.",
+        "Desenvolvedor Jr na Ambev Tech, o desenvolvimento com foco em JavaScript, React, C# .NET e TypeScript React Native.",
+        "Gerenciou SQL, MySQL e MongoDB para otimizar desempenho e segurança.",
+        "Especializado em API's REST, coordenou fluxos com testes rigorosos usando o Postman para garantir qualidade.",
+        "Contribuiu ativamente, aprimorando processos e impulsionando inovação tecnológica na equipe da Ambev Tech.",
         
       ],
     },
     
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  
   
   const projects = [
     {
-      name: "Ui - Lover",
+      name: "Projeto-After",
       description:
-        "Uma aplicação criada para registrar minha experiencia utilizando design inteligente e scrum, usando principalmente kotlin, java e css.",
+        "Desenvolvi um site full-stack no universo pop-punk chamado After-Midnight,incluindo recursos como venda de ingressos, produtos e integração com MongoDB para validação de usuários e processamento de pagamentos via API. Destaco a ênfase na responsividade para ampliar o alcance do público, demonstrando minha habilidade em solucionar desafios complexos. ",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Nodejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/Dantas206x/projeto-after",
+    },
+    {
+      name: "Calculadora de Peso",
+      description:
+        "uma aplicação simples desenvolvida em JavaScript para ajudar você a converter e calcular diferentes unidades de peso de maneira rápida e eficiente.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+      
+      ],
+      image: IMC,
+      source_code_link: "https://github.com/Dantas206x/calculadora-de-peso",
+    },
+    {
+      name: "Teste de variação",
+      description:
+        "um teste em C# que realiza uma consulta no banco de dados procurando os pregoes nos ultimos 30 dias, calculando a abtida a cada dia e retornando o resultado.",
+      tags: [
+    
+        {
+          name: " Csharp",
+          color: "green-text-gradient",
+        },
+  
+      ],
+      image: variacao,
+      source_code_link: "https://github.com/Dantas206x/Tabela-java-spring",
+    },
+    {
+      name: "Api-Kognit",
+      description:
+        "uma solução poderosa para notificações em tempo real, projetada para consumir dados em formato JSON e entregá-los eficientemente à sua aplicação web. Desenvolvida com foco na simplicidade e desempenho, esta API fornece uma ponte robusta entre fontes de dados externas e sua aplicação web, permitindo uma integração suave.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "F#",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Csharp",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: json,
+      source_code_link: "https://github.com/Dantas206x/Ui-Lover",
+    },
+    {
+      name: "Teste-kognit",
+      description:
+        "backend com a flexibilidade e modernidade do React@mui no frontend. Este sistema consome uma API em C#, utilizando React@mui para criar uma elegante Navbar, enriquecida com ícones intuitivos.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: json,
+      source_code_link: "https://github.com/Dantas206x/Ui-Lover",
+    },
+    {
+      name: "AntonioDev Portifolio",
+      description:
+        "Este portfólio web moderno e funcional foi construído com JavaScript, CSS e HTML, utilizando a tecnologia THREEJS para uma experiência imersiva. Destaco meu melhor trabalho e projetos com navegação intuitiva, oferecendo uma estética agradável e usabilidade. Explore para inspirar-se em meus desenvolvimentos.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: protifas,
+      source_code_link: "https://github.com/Dantas206x/Ui-Lover",
+    },
+    {
+      name: "Tabela-java-spring",
+      description:
+        "Tabela Spring usando Spring tool Suite e Postman para construir um pequeno sistema ( API Rest ) de desenvolvimento moderno relacional objeto json",
+      tags: [
+     
+        {
+          name: "Java",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: spring,
+      source_code_link: "https://github.com/Dantas206x/Ui-Lover",
+    },
+    {
+      name: "desafio-docker-compose",
+      description:
+        "Apenas um desafio de docker compose",
+      tags: [
+        {
+          name: "Docker",
+          color: "blue-text-gradient",
+        },
+       
+      ],
+      image: dockeer,
+      source_code_link: "https://github.com/Dantas206x/Ui-Lover",
+    },
+    {
+      name: "Login e Cadastro",
+      description:
+        "Uma aplicação criada para registrar minha experiencia utilizando design inteligente e scrum, usando principalmente kotlin, java e css",
       tags: [
         {
           name: "CSS",
@@ -184,41 +318,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: locad,
       source_code_link: "https://github.com/Dantas206x/Ui-Lover",
-    },
-    {
-      name: "Calculadora de Peso",
-      description:
-        "Apenas um teste de logica em Javascript para calcular o peso de uma pessoa em libras para kilogramas e vice e versa.",
-      tags: [
-        {
-          name: "JavaScript",
-          color: "blue-text-gradient",
-        },
-      
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/Dantas206x/calculadora-de-peso",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "Uma tabela spring para registrar declaração nutricional usando Java em spring",
-      tags: [
-    
-        {
-          name: "Spring",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Java",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/Dantas206x/Tabela-java-spring",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences,  projects };

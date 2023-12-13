@@ -20,18 +20,34 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import back from "./tech/back.png";
+import front from "./tech/front.png";
+import react from "./tech/react.png";
+import IMC from "./IMC.png";
+import dockeer from "./dockeer.png";
+import json from "./json.png";
+import locad from "./locad.png";
+import protifas from "./protifas.jpg";
+import spring from "./spring.png";
+import variacao from "./variacao.jpg";
 
 
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import shopify from "./company/shopify.jpeg";
+import starbucks from "./company/starbucks.jpeg";
+import tesla from "./company/tesla.jpeg";
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
 
 export {
   logo,
+  IMC,
+  locad,
+  json,
+  protifas,
+  dockeer,
+  spring,
+  variacao,
   backend,
   creator,
   mobile,
@@ -56,6 +72,7 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
-  tripguide,
+  react,
+  front,
+  back,
 };

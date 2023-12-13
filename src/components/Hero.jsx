@@ -16,11 +16,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-          Olá, eu sou<span className='text gradient-text sombra-texto flex'>&nbsp;Antonio</span>
+          Olá, eu sou<span className='text gradient-text sombra-texto flex'>&nbsp;ANTONIO</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          ou profissional de T.I e desenvolvo soluções tecnológicas e  <br className='sm:block hidden' />
-          criativas para o mundo digital. ⚛️
+          Exploro o mundo digital com paixão, traduzindo ideias em soluções tecnológicas e  <br className='sm:block hidden' />
+          criativas. Bem-vindo à inovação em T.I!
           </p>
         </div>
       </div>

@@ -42,15 +42,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Sou desenvolvedor de software em graduação
-        com experiencia em TypeScript, JavaScript,
-        python e C# com experiencia em frameworks
-        como React, Node.js, three.js e Angular.
-        Sou um otimo aprendiz, e colaboro com os
-        clientes para que se crie soluções 
-        eficientes, escalaveis e faceis de usar
-        e que resolva problemas do mundo real.
-
+        
+Desenvolvedor Full Stack especializado em JavaScript, React, C# .NET, TypeScript, React Native e Angular. Expert em gestão de bancos de dados (PostgreSQL, MySQL, MongoDB) e criação de API's REST. Comprometido com aplicações robustas, escaláveis e inovação constante. Versátil e apaixonado por tecnologia, busco constantemente atualizações e melhores práticas para enfrentar desafios e impulsionar o sucesso em ambientes dinâmicos.
 
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
