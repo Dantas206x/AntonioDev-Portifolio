@@ -199,7 +199,7 @@ import {
   
       ],
       image: variacao,
-      source_code_link: "https://github.com/Dantas206x/Tabela-java-spring",
+      source_code_link: "https://github.com/Dantas206x/teste-variacao",
     },
     {
       name: "Api-Kognit",
@@ -228,7 +228,7 @@ import {
         },
       ],
       image: json,
-      source_code_link: "https://github.com/Dantas206x/Ui-Lover",
+      source_code_link: "https://github.com/Dantas206x/api-kognit",
     },
     {
       name: "Teste-kognit",
@@ -249,7 +249,7 @@ import {
         },
       ],
       image: json,
-      source_code_link: "https://github.com/Dantas206x/Ui-Lover",
+      source_code_link: "https://github.com/Dantas206x/Teste-kognit",
     },
     {
       name: "AntonioDev Portifolio",
@@ -270,7 +270,7 @@ import {
         },
       ],
       image: protifas,
-      source_code_link: "https://github.com/Dantas206x/Ui-Lover",
+      source_code_link: "https://github.com/Dantas206x/AntonioDev-Portifolio",
     },
     {
       name: "Tabela-java-spring",
@@ -284,7 +284,7 @@ import {
         },
       ],
       image: spring,
-      source_code_link: "https://github.com/Dantas206x/Ui-Lover",
+      source_code_link: "https://github.com/Dantas206x/Tabela-java-spring",
     },
     {
       name: "desafio-docker-compose",
@@ -298,7 +298,7 @@ import {
        
       ],
       image: dockeer,
-      source_code_link: "https://github.com/Dantas206x/Ui-Lover",
+      source_code_link: "https://github.com/Dantas206x/desafio-docker-compose",
     },
     {
       name: "Login e Cadastro",
